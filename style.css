@@ -114,3 +114,24 @@ ul {
     width: 150px;
     height: 150px;
 }
+
+.quote-section {
+    padding: 5% 25%;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    margin-bottom: 5px;
+}
+
+.author {
+    color: #1F2937;
+    font-weight: bold;
+    font-size: 24px;
+    align-self: flex-end;
+    margin-top: 0;
+}
