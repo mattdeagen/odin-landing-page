@@ -76,3 +76,41 @@ ul {
     justify-content: center;
     align-items: center;
 }
+
+.information {
+    padding: 2% 15% 8%;
+}
+
+.information-header {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.info-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 0 10%;
+}
+
+.info-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:#6d747d;
+}
+
+.info-card p {
+    width: 160px;
+}
+
+.placeholder {
+    border: 5px solid #3882f6;
+    border-radius: 15px;
+    width: 150px;
+    height: 150px;
+}
